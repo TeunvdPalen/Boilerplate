@@ -48,7 +48,7 @@ function js() {
 function sync(cb) {
   browsersync.init({
     server: {
-      baseDir: ".",
+      baseDir: "src/.",
     },
   });
   cb();
